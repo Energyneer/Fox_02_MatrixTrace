@@ -13,10 +13,11 @@ namespace Task2
             set
             {
                 if (value != null)
+                {
                     matrixArray = value;
-
-                rows = value.GetLength(0);
-                cols = value.GetLength(1);
+                    rows = value.GetLength(0);
+                    cols = value.GetLength(1);
+                }
             }
         }
         private int[,] matrixArray;
